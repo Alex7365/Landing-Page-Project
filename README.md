@@ -1,8 +1,8 @@
 # Landing-Page-Project
 A sample landing page template for a fictional website.
 
-# Topic: Cooking
-## Website Title: Cooking Website
+# Topic: 
+## Website Title: Document
 ### Write your tagline here
 ## Widgets?
 If you plan to have a button or input, what will it say
