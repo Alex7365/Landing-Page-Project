@@ -3,9 +3,9 @@
     --dark-blue: #003b58;
     --light-blue: #d4e1e7;
     --crimson: #c9143f;
-    --cyan: #02b4c0;
+    --green: rgb(24, 168, 24);
     --black: #100f0d;
-    --dark-grey: #555152;
+    --cyan: #5ccbdf;
     --body-bg: #fff;
 }
 body {
@@ -35,7 +35,7 @@ a.button {
     text-transform: uppercase;
 }
 a.button.primary {
-    background-color: var(--cyan);
+    background-color: var(--green);
 }
 
 /* navbar styling */
@@ -60,13 +60,17 @@ a.button.primary {
     font-weight: bold;
 }
 nav a {
-    color: var(--dark-grey);
+    color: var(--cyan);
+    font-size: 150%;
 }
 
 /* Style the hero unit grid */
 
 #hero {
-    background-image: linear-gradient(#cddbdc, #d4e1e7);
+    background-image: url("images/bride-g2a753a264_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: right 190px;
+    background-size: contain;
 }
 #hero-nav {
     grid-area: nav;
@@ -109,6 +113,9 @@ footer {
 }
 @media only screen and (min-width: 600px) {
     #hero {
+        background-image: url("images/bride-g2a753a264_1280.jpg");
+        background-size: cover;
+        background-position: -750px 100px;
         display: grid;
         grid-template-columns: 1fr 1fr 2fr 2fr 2fr 1fr;
         grid-template-rows: 
