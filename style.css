@@ -111,6 +111,9 @@ footer {
     padding: 1em;
     background-color: var(--dark-blue);
 }
+a {
+    color: var(--green);
+}
 @media only screen and (min-width: 600px) {
     #hero {
         background-image: url("images/bride-g2a753a264_1280.jpg");
